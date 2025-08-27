@@ -1,13 +1,13 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import HelloButton from "./HelloButton";
+import type { Meta, StoryObj } from '@storybook/react';
+import HelloButton from './HelloButton';
 
 const meta: Meta<typeof HelloButton> = {
-  title: "Example/HelloButton",
+  title: 'Example/HelloButton',
   component: HelloButton,
-  tags: ["autodocs"],
+  tags: ['autodocs'],
   argTypes: {
-    label: { control: "text" },
-    onClick: { action: "clicked" },
+    label: { control: 'text' },
+    onClick: { action: 'clicked' },
   },
 };
 
@@ -16,6 +16,6 @@ type Story = StoryObj<typeof HelloButton>;
 
 export const Primary: Story = {
   args: {
-    label: "Hello Tailwind 🚀",
+    label: 'Hello Tailwind 🚀',
   },
 };

@@ -1,14 +1,14 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
-    "@storybook/addon-essentials",
-    "@storybook/addon-links",
-    "@storybook/addon-interactions"
+    '@storybook/addon-essentials',
+    '@storybook/addon-links',
+    '@storybook/addon-interactions',
   ],
   framework: {
-    name: "@storybook/react-vite",
-    options: {}
-  }
+    name: '@storybook/react-vite',
+    options: {},
+  },
 };
 export default config;
