@@ -1,14 +1,14 @@
 import React from 'react';
 
-type HelloButtonProps = {
+interface MyButtonProps {
   label: string;
   onClick?: () => void;
-};
+}
 
-const HelloButton: React.FC<HelloButtonProps> = ({ label, onClick }) => {
+const MyButton: React.FC<MyButtonProps> = ({ label, onClick }) => {
   return (
     <button
-      className="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700"
+      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
       onClick={onClick}
     >
       {label}
@@ -16,4 +16,4 @@ const HelloButton: React.FC<HelloButtonProps> = ({ label, onClick }) => {
   );
 };
 
-export default HelloButton;
+export default MyButton;
