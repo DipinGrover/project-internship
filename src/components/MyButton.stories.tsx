@@ -16,6 +16,6 @@ type Story = StoryObj<typeof HelloButton>;
 
 export const Primary: Story = {
   args: {
-    label: 'Hello Tailwind 🚀',
+    label: 'Namaste',
   },
 };
